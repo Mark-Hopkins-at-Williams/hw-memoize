@@ -69,18 +69,4 @@ class Pascal:
     pascal(n,k) calls should be constant-time.
     
     """
-    def __init__(self):
-        self.elements = []
-    
-    def __call__(self, n, k):        
-        while len(self.elements) < n+1:
-            row = []
-            i = len(self.elements)
-            for j in range(i+1):
-                if i == j or i == 0 or j == 0:
-                    row.append(1)
-                else:
-                    row.append(self.elements[i-1][j-1] + self.elements[i-1][j])
-            self.elements.append(row)
-        return self.elements[n][k]
-            
+    pass
