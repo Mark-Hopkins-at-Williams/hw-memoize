@@ -69,4 +69,5 @@ class Pascal:
     pascal(n,k) calls should be constant-time.
     
     """
-    pass
+    def __init__(self):
+        raise NotImplementedError("Q1")

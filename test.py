@@ -1,7 +1,7 @@
 import unittest
 from memoize import fib, Fibonacci, pascal, Pascal
 
-class MemoizeTests(unittest.TestCase):
+class Q1(unittest.TestCase):
 
     def test_fib(self):
         assert fib(10) == 55, 'fib test failed!'
